@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laliga | Tienda</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/mediaquery.css">
+    <link rel="stylesheet" href="./css/presupuesto.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Quicksand&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- Cabecera principal (id='header-principal'). Estan colocados los escudos de los clubes y sus respectivos enlaces direccionando a las páginas webs de los mismos -->
+    <header id="header-principal">
+        
+        <nav class="nav-clubes">
+
+            <!-- Pequeño título: "Web Clubes" -->
+            <!-- Ícono de ordenador portatil desde Bootstrap Icons -->
+            <div id="title-web">
+                <div id="web">Web Clubes</div>
+                <div id="laptop-icon"><i class="bi bi-laptop"></i></div>
+            </div>
+            
+            <!-- Contenedor de logos de cada club -->
+            <div class="container-clubes">
+
+                <!-- Cada club con la clase: class='clubes-primera' debido a que son de primera división -->
+                <!-- FC Barcelona -->
+                <div> 
+                    <a href="https://www.fcbarcelona.es/es/" target="blank"><img class="clubes-primera" src="../img/LaLiga_Clubes/FC_Barcelona.png" alt="FC Barcelona"></a>
+                </div>
+                
+                <!-- Real Madrid -->
+                <div>
+                    <a href="https://www.realmadrid.com/" target="blank"><img class="clubes-primera" src="../img/LaLiga_Clubes/Real_Madrid_CF.png" alt="Real Madrid CF"></a>
+                </div>
+                
+                <!-- Atlético de Madrid -->
+                <div>
+                    <a href="https://www.atleticodemadrid.com/" target="blank"><img class="clubes-primera" src="../img/LaLiga_Clubes/Atletico_Madrid.png" alt="Atletico de Madrid"></a>
+                </div>            
+    
+                <!-- Athletic de Bilbao -->
+                <div>
+                    <a href="https://www.athletic-club.eus/" target="blank"><img class="clubes-primera" src="../img/LaLiga_Clubes/Athletic_Bilbao.png" alt="Athletic Bilbao"></a>
+                </div>
+                
+                <!-- Real Betis -->
+                <div>
+                    <a href="https://www.realbetisbalompie.es/" target="blank"><img class="clubes-primera" src="../img/LaLiga_Clubes/Real_Betis.png" alt="Real Betis"></a>
+                </div>
+                
+                <!-- Sevilla FC -->
+                <div>
+                    <a href="https://www.sevillafc.es/" target="blank"><img class="clubes-primera" src="../img/LaLiga_Clubes/Sevilla.png" alt="Sevilla FC"></a>
+                </div>
+                
+                <!-- Valencia -->
+                <div>
+                    <a href="https://www.valenciacf.com/" target="blank"><img class="clubes-primera" src="../img/LaLiga_Clubes/Valencia.png" alt="Valencia"></a>
+                </div>
+                
+                <!-- RCD Mallorca -->
+                <div>
+                    <a href="https://www.rcdmallorca.es/" target="blank"><img class="clubes-primera" src="../img/LaLiga_Clubes/RCD_Mallorca.png" alt="RCD Mallorca"></a>
+                </div>
+                
+                <!-- Rayo Vallecano -->
+                <div>
+                    <a href="http://www.rayovallecano.es/" target="blank"><img class="clubes-primera" src="../img/LaLiga_Clubes/Rayo_Vallecano.png" alt="Rayo Vallecano"></a>
+                </div>
+                
+                <!-- Real Sociedad -->
+                <div>
+                    <a href="https://www.realsociedad.eus/" target="blank"><img class="clubes-primera" src="../img/LaLiga_Clubes/Real_Sociedad.png" alt="Real Sociedad"></a>
+                </div>
+                
+                <!-- Villarreal -->
+                <div>
+                    <a href="https://villarrealcf.es/" target="blank"><img class="clubes-primera" src="../img/LaLiga_Clubes/Villarreal.png" alt="Villarreal CF"></a>
+                </div>
+                
+                <!-- RC Celta -->
+                <div>
+                    <a href="https://rccelta.es/" target="blank"><img class="clubes-primera" src="../img/LaLiga_Clubes/Celta_Vigo.png" alt="RC Celta"></a>
+                </div>
+                
+                <!-- Real Valladolid -->
+                <div>
+                    <a href="https://www.realvalladolid.es/" target="blank"><img class="clubes-primera" src="../img/LaLiga_Clubes/Valladolid.png" alt="Real Valladolid CF"></a>
+                </div>
+                
+                <!-- Getafe CF -->
+                <div>
+                    <a href="https://www.getafecf.com/" target="blank"><img class="clubes-primera" src="../img/LaLiga_Clubes/Getafe.png" alt="Getafe CF"></a>
+                </div>
+                
+                <!-- Elche -->
+                <div>
+                    <a href="https://www.elchecf.es/" target="blank"><img class="clubes-primera" src="../img/LaLiga_Clubes/Elche.png" alt="Elche CF"></a>
+                </div>
+                
+                <!-- Cadiz -->
+                <div>
+                    <a href="https://www.cadizcf.com/" target="blank"><img class="clubes-primera" src="../img/LaLiga_Clubes/Cadiz.png" alt="Cadiz CF"></a>
+                </div>
+                
+                <!-- Espanyol -->
+                <div>
+                    <a href="https://www.rcdespanyol.com/" target="blank"><img class="clubes-primera" src="../img/LaLiga_Clubes/Espanyol.png" alt="RCD Espanyol de Barcelona"></a>
+                </div>
+                
+                <!-- Almería -->
+                <div>
+                    <a href="https://www.udalmeriasad.com/" target="blank"><img class="clubes-primera" src="../img/LaLiga_Clubes/Almeria.png" alt="UD Almería"></a>
+                </div>
+                
+                <!-- Girona -->
+                <div>
+                    <a href="https://www.gironafc.cat/es" target="blank"><img class="clubes-primera" src="../img/LaLiga_Clubes/Girona.png" alt="Girona FC"></a>
+                </div>
+                
+                <!-- Osasuna -->
+                <div>
+                    <a href="https://www.osasuna.es/" target="blank"><img class="clubes-primera" src="../img/LaLiga_Clubes/Osasuna.png" alt="CA Osasuna"></a>
+                </div>
+
+            </div>
+
+        </nav>
+        
+        <hr>
+
+        <!-- Contenedor de navegador secundario (class="container-nav-secundario") donde se encuentran las opciones de navegación a travez de la página -->
+        
+        <div class="container-nav-secundario">
+            
+            <!-- Ícono de "LaLiga" (Oculto hasta que el tamaño sea menos de 930px) -->
+            <div>
+                <img class="img-icon-laLiga" src="../img/Icon_LaLiga/Laliga_icon.png" alt="Logo de LaLiga">
+            </div>
+
+            <!-- Menú de hamburguesa de Bootstrap Icons (Oculto hasta los 930px) -->
+            <i class="bi bi-list icon-button-burger"></i>
+
+            <!-- Navegador secundario (class='nav-secundario') -->
+            <nav class="nav-secundario nav-secundario-tienda">
+                <ul class="nav-ul nav-ul-tienda">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="./Presupuesto.html">Tienda</a></li>
+                    <li><a href="./Galeria.html">Galería</a></li>
+                    <li><a href="./Contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+            
+        </div>
+        
+    </header>
+
+    <!-- Sección de formulario de presupuesto -->
+    <section class="container_form">
+
+        <!-- Formulario -->
+        
+        <!-- En las etiquetas "<small>" aparecerá un mensaje de advertencia si la información no es la solicitada según el "<input>" -->
+            
+            <form id="formulario_tienda" name="formulario_tienda" method="POST">
+                
+                <fieldset id="grupo_datos" class="form-control">
+                <!-- DATOS PERSONALES -->
+                <legend>DATOS PERSONALES</legend>
+
+                <label for="nombre">
+                    <input type="text" name="nombre" id="nombre" placeholder="Ingresar nombres"><br>
+                    <small>Mensaje</small>
+                </label><br><br>
+                
+                <label for="apellido">
+                    <input type="text" name="apellido" id="apellido" placeholder="Ingresar apellidos"><br>
+                    <small>Mensaje</small>
+                </label><br><br>
+                
+                <label for="telefono">
+                    <input type="number" name="telefono" id="telefono" placeholder="Ingresar teléfono de contacto (+34)"><br>
+                    <small>Mensaje</small>
+                </label><br><br>
+                
+                <label for="correo">
+                    <input type="email" name="correo" id="correo" placeholder="Ingresar correo electrónico"><br>
+                    <small>Mensaje</small>
+                </label><br><br><br>
+                
+            </fieldset>
+
+            <fieldset id="grupo_presupuesto" class="form-control">
+                <!-- PRESUPUESTO -->
+                <legend>PRESUPUESTO</legend>
+                
+                <!-- Cada opción tiene un "value" de forma que toma ese valor para poder obtener el monto final del presupuesto. Funcionalidad en: "validation_form.js" -->
+                <label for="elegir">Elija su producto: 
+                    <select name="elegir" id="elegir" required>
+                        <option value="">(Campo vacío)</option>
+                        <option value="90">Camiseta (local) de tu equipo favorito (90€)</option>
+                        <option value="75">Camiseta (visitante) de tu equipo favorito (75€)</option>
+                        <option value="100">Kit completo (local) de tu equipo favorito (100€)</option>
+                        <option value="85">Kit completo (visitante) de tu equipo favorito (85€)</option>
+                        <option value="40">Balón de futbol de LaLiga (40€)</option>
+                        <option value="30">Balon de futbol de tu equipo favorito (30€)</option>
+                        <option value="25">Bufanda de tu equipo favorito (25€)</option>
+                        <option value="20">Gorra de tu equipo favorito (20€)</option>
+                    </select>
+                </label><br><br>
+                
+                
+                <div id="container_entrega">
+                    <label for="entrega">Plazo de entrega (días):</label>
+                    <input type="number" min="1" max="5" name="entrega" id="entrega" value="0">
+                    <p>1 día: +50€ / 2 días: +40€ / 3 días: 30€ / 4 días: +20€ / 5 días: +10€</p> 
+                </div><br>
+
+                <span>Elementos extras: </span><br>
+                <div id="extras">
+                    <label for="extra1">
+                    <input type="checkbox" name="extra1" id="extra1" value="10"> Camiseta con nombre personalizado (10€)
+                    </label><br>
+
+                    <label for="extra2">
+                        <input type="checkbox" name="extra2" id="extra2" value="10"> Camiseta con dorsal personalizado (10€) 
+                    </label><br>
+
+                    <label for="extra3">
+                        <input type="checkbox" name="extra3" id="extra3" value="8"> Bufanda personalizada (Fecha de la jornada) (8€)  
+                    </label><br>
+                    
+                    <label for="extra4">
+                        <input type="checkbox" name="extra4" id="extra4" value="10"> Bufanda personalizada (Doble: Con equipo rival)  (10€)
+                    </label><br><br>
+                </div>
+
+                <!-- PRESUPUESTO TOTAL -->
+                <div class="container_presupuestoTotal">
+                    <label for="presupuestoT">Presupuesto total:</label>
+                    <input type="text" name="presupuestoT" id="presupuestoT" value="0">
+                </div>
+
+            </fieldset><br>
+
+            <!-- Contenedor de políticas de privacidad -->
+            <fieldset id="grupo_condiciones" class="form-control">
+                <legend>Políticas de privacidad, términos y condiciones</legend>
+
+                <label for="privacidad">
+                    <input type="checkbox" name="privacidad" id="privacidad"> Estoy de acuerdo con la <a href="./Politicas_de_privacidad/politica_de_privacidad.html">Política de Privacidad.</a><br>
+                    <small>Mensaje</small><br>
+                </label>
+
+                <label for="condiciones">
+                    <input type="checkbox" name="condiciones" id="condiciones"> Estoy de acuerdo con los <a href="./Politicas_de_privacidad/informacion_legal.html">Terminos y condiciones.</a><br>
+                    <small>Mensaje</small><br>
+                </label>
+            
+            </fieldset>
+            
+            <!-- Botones de "Envío" y "Eliminación" de los datos del formulario -->
+            <div class="container_btn_enviar_borrar">
+                <input type="submit" name="enviar" id="enviar" value="Enviar" onclick="alert_enviar()">
+                <input type="button" name="borrar" id="borrar" value="Borrar">
+            </div>
+
+        </form>
+    </section>
+
+    <!-- Cuerpo de tienda: Muestra algunas imágenes de camisetas -->
+    <main class="cuerpo-tienda">
+
+        <h2>Camisetas de tus equipos favoritos</h2><br>
+        <div class="container-select-team">
+
+            <!-- Slider: "articulos_tienda.js" -->
+            <i class="bi bi-chevron-compact-left moverizq_tienda" onclick="moverizq1()"></i>
+            
+            <img id="img_kit1" src="../img/Articulos_tienda/kit_barcelona.jpg" alt="Equipación de FC Barcelona">
+            <img id="img_kit2" src="../img/Articulos_tienda/kit_atletico_madrid.jpg" alt="Equipación de Atlético de Madrid">
+            <img id="img_kit3" src="../img/Articulos_tienda/kit_real_betis.jpg" alt="Equipación de Real Betis">
+            <img id="img_kit4" src="../img/Articulos_tienda/kit_sevilla.jpg" alt="Equipación de Sevilla">
+            <img id="img_kit5" src="../img/Articulos_tienda/kit_osasuna.jpg" alt="Equipación de CA Osasuna">
+            <img id="img_kit6" src="../img/Articulos_tienda/kit_valencia.jpg" alt="Equipación de Valencia">
+            
+            <i class="bi bi-chevron-compact-right moverder_tienda"  onclick="moverder1()"></i>   
+            
+        </div>
+
+        <br><br>
+        <h2>Camisetas de tus jugadores favoritos</h2><br>
+        <div class="container-select-jugadores">
+
+            <!-- Slider: "articulos_tienda.js" -->
+            <i class="bi bi-chevron-compact-left moverizq_tienda" onclick="moverizq2()"></i>
+
+            <img id="img_kitD1" src="../img/Articulos_tienda/Camiseta_Ansu.avif" alt="Camiseta de Ansu Fati">
+            <img id="img_kitD2" src="../img/Articulos_tienda/Camiseta_Karim.avif" alt="Camiseta de Karim Benzema">
+            <img id="img_kitD3" src="../img/Articulos_tienda/Camiseta_Morata.avif" alt="Camiseta de Alvaro Morata">
+            <img id="img_kitD4" src="../img/Articulos_tienda/Camiseta_Joaquin.jpg" alt="Camiseta de Joaquin">
+            <img id="img_kitD5" src="../img/Articulos_tienda/Camiseta_Odegaard.jpg" alt="Camiseta de Martin Odegaard">
+
+            <i class="bi bi-chevron-compact-right moverder_tienda"  onclick="moverder2()"></i>
+
+        </div>
+        
+    </main>
+
+    <!-- Contenedor patrocinadores (class='container-patrocinadores') -->
+    <section class="container-patrocinadores">
+
+        <!-- Título -->
+        <div class="patrocinador-principal">
+            <h5>Patrocinador principal</h5>
+
+            <!-- Imagen de banco Santander -->
+            <div>
+                <a href="https://www.santander.com/es/home" target="blank"><img src="../img/Patrocinadores/logo-santander.png" alt="Logo de banco Santander"></a>
+            </div>
+        </div>
+
+
+        <!-- Contenedor de patrocinadores oficiales/secundarios -->
+        <div class="patrocinador-secundario">
+
+            <!-- Título -->
+            <h5>Patrocinadores oficiales</h5>
+
+            <!-- Contenedor de patrocinadores -->
+            <div class="container-p-o">
+
+                <!-- Marca: Puma -->
+                <a href="https://eu.puma.com/es/es/home" target="blank">
+                    <img id="marca-puma" src="../img/Patrocinadores/Puma.png" alt="Marca Puma">
+                </a>
+
+                <!-- Marca: Fifa23 -->
+                <a href="https://www.ea.com/es-es/games/fifa/fifa-23" target="blank">
+                    <img id="marca-fifa23" src="../img/Patrocinadores/Fifa23.png" alt="Marca Fifa23">
+                </a>
+                
+                <!-- Marca: Microsoft -->
+                <a href="https://www.microsoft.com/es-es/" target="blank">
+                    <img id="marca-microsoft" src="../img/Patrocinadores/Microsoft.png" alt="Marca Microsoft">
+                </a>
+                
+                <!-- Marca: Mahou -->
+                <a href="https://www.mahou.es/" target="blank">
+                    <img id="marca-mahou" src="../img/Patrocinadores/Mahou.png" alt="Marca Mahou">
+                </a>
+                
+                <!-- Marca: Soares -->
+                <a href="https://sorare.com/football/laliga" target="blank">
+                    <img id="marca-soares" src="../img/Patrocinadores/Sorare.png" alt="Marca">
+                </a>
+                
+                <!-- Marca: GrowingTogether -->
+                <a href="https://www.bkt-tires.com/es/es/" target="blank">
+                    <img id="marca-growingtogether" src="../img/Patrocinadores/GrowingTogether.png" alt="Marca GrowinTogether">
+                </a>
+
+                <!-- Marca: Golazos -->
+                <a href="https://laligagolazos.com/" target="blank">
+                    <img id="marca-golazos" src="../img/Patrocinadores/Golazos.png" alt="Marca Golazos">
+                </a>
+
+                <!-- Marca: Socios.com -->
+                <a href="https://www.socios.com/" target="blank">
+                    <img id="marca-socios" src="../img/Patrocinadores/Socios.png" alt="Marca Socios">
+                </a>
+                
+                <!-- Marca: Gol-Ball -->
+                <a href="https://golball.com/" target="blank">
+                    <img id="marca-gol-ball" src="../img/Patrocinadores/Gol-ball.png" alt="Marca Gol-Ball">
+                </a>
+                
+                <!-- Marca: El Corte Inglés -->
+                <a href="https://www.elcorteingles.es/" target="blank">
+                    <img id="marca-el-corte-ingles" src="../img/Patrocinadores/ElCorteIngles.png" alt="Marca El Corte Inglés">
+                </a>
+                
+                <!-- Marca: Allianz -->
+                <a href="https://www.allianz.es" target="blank">
+                    <img id="marca-allianz" src="../img/Patrocinadores/Allianz.png" alt="Marca Allianz">
+                </a>
+                
+                <!-- Marca: Burguer King -->
+                <a href="https://www.burgerking.es/home" target="blank">
+                    <img id="marca-burguer-king" src="../img/Patrocinadores/BurguerKing.png" alt="Marca Burguer King">
+                </a>
+
+                <!-- Marca: Panini -->
+                <a href="https://www.panini.es/" target="blank">
+                    <img id="marca-panini" src="../img/Patrocinadores/Panini.png" alt="Marca Panini">
+                </a>
+
+                <!-- Marca: Marques de Atrio -->
+                <a href="https://marquesdelatrio.com/" target="blank">
+                    <img id="marca-marques-de-atrio" src="../img/Patrocinadores/MarquesdelAtrio.png" alt="Marca Marques de Atrio">
+                </a>
+                
+                <!-- Marca: Nissan -->
+                <a href="https://www.nissan.es/gama/coches-e-power.html" target="blank">
+                    <img id="marca-nissan" src="../img/Patrocinadores/Nissan.png" alt="Marca Nissan">
+                </a>
+                
+                <!-- Marca: Vivo -->
+                <a href="https://www.vivo.com/es" target="blank">
+                    <img id="marca-vivo" src="../img/Patrocinadores/Vivo.png" alt="Marca Vivo">
+                </a>
+                
+                <!-- Marca: Cabreiroa -->
+                <a href="https://cabreiroa.es/" target="blank">
+                    <img id="marca-cabreiroa" src="../img/Patrocinadores/Cabreiroa.png" alt="Marca Cabreiroa">
+                </a>
+                
+                <!-- Marca: Legends -->
+                <a href="https://legends.football/" target="blank">
+                    <img id="marca-legends"  src="../img/Patrocinadores/Legends.png" alt="Marca Legends">
+                </a>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="pie_pagina">
+        <div class="pie_pagina1">
+            <img src="../img/Icon_LaLiga/LaLiga_logo_fondo_negro.png" alt="Icono de LaLiga Santander">
+
+            <div class="container_redesSociales">
+                <div id="rs1"></div>
+                <div id="rs2"></div>
+                <div id="rs3"></div>
+                <div id="rs4"></div>
+                <div id="rs5"></div>
+                <div id="rs6"></div>
+                <div id="rs7"></div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="container_politicas">
+            <span><a href="./Politicas_de_privacidad/informacion_legal.html">Información legal</a></span>
+            <span><a href="./Politicas_de_privacidad/politica_de_privacidad.html">Política de Privacidad</a></span>
+            <span><a href="./Politicas_de_privacidad/politica_de_cookis.html">Política de Cookis</a></span>
+            <span>2023 LaLiga</span>
+        </div>
+
+    </footer>
+
+
+    <script src="../js/JQuery/JQuery-3.7.0.min.js"></script>
+    <script src="../js/menuburger.js"></script>
+    <script src="./js/validation_form.js"></script>
+    <script src="./js/articulos_tienda.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+</body>
+
+</html>

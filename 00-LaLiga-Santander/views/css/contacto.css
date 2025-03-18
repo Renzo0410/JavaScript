@@ -1,0 +1,118 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-nav-secundario {
+    background-color: rgb(37, 40, 42);
+}
+
+.nav-secundario-galeria {
+    max-width: 1550px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.borde {
+    border-bottom: 5px solid #ffffff;
+}
+
+.title_contacto {
+    padding-top: 75px;
+    padding-bottom: 10px;
+    background-color: rgb(37, 40, 42);
+    color: #ffffff;
+    text-align: center;
+}
+
+.container_map_contact {
+    display: flex;
+    width: 100%;
+    max-width: 1550px;
+    margin: auto;
+}
+
+.bi-star-fill {
+    color: rgb(254, 207, 98);
+}
+
+.informacion_user {
+    flex: 50%;
+    padding: 1.5% 5%;
+}
+
+.registro_form, .info_form {
+    background-color: #24303c;
+    color: #ffffff;
+}
+
+.registro_form {
+    padding: 0 5%;
+    border-radius: 30px;
+}
+
+.info_form {
+    border: 1px solid #1F53C5;
+    width: 100%;
+    padding: 5px 0;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.registro_form h2 {
+    text-align: center;
+}
+
+.container_map_dinamico {
+    flex: 50%;
+    padding: 1.5% 0%;
+    padding-right: 5%;
+}
+
+#map_dinamico {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.registro {
+    background-color: #1F53C5;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+    font-size: 1.15rem;
+    height: 50px;
+}
+
+.politicas_opcion {
+    color:#1F53C5;
+}
+
+.politicas_opcion:hover {
+    text-decoration: underline;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
+small {
+    color: #e74d3c;
+    font-size: .85rem;
+    visibility: hidden;
+}
+
+.form-control.success input, .form-control.error select {
+    border: 2px solid #2ecc71;
+}
+
+.form-control.error input, .form-control.error select {
+    border: 2px solid #e74d3c;
+}
+
+.form-control.error small {
+    visibility: visible;
+}

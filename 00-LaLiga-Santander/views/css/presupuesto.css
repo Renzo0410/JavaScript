@@ -1,0 +1,194 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-nav-secundario {
+    background-color: rgb(37, 40, 42);
+}
+
+.nav-secundario-tienda {
+    max-width: 1550px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.container_form {
+    width: 100%;
+    max-width: 1550px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+#enviar, #borrar {
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.container_btn_enviar_borrar {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#grupo_datos input {
+    width: 100%;
+    padding-left: 10px;
+    font-size: 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#grupo_datos, #grupo_presupuesto, #grupo_condiciones {
+    padding: 20px 30px;
+}
+
+#ad_name, #ad_lastname, #ad_phone, #ad_email, #ad_PyT {
+    font-size: .8rem;
+    color: #ff0000;
+}
+
+.maxC {
+    opacity: .5;
+    font-size: .8rem;
+}
+
+#grupo_datos p {
+    font-size: .85rem;
+}
+
+#formulario_tienda {
+    font-size: 1.2rem;
+    width: 80%;
+    max-width: 1550px;
+    margin: auto;
+    padding-top: 90px;
+}
+
+#formulario_tienda legend {
+    opacity: .8;
+}
+
+#grupo_datos input[type=number]::-webkit-inner-spin-button, 
+#grupo_datos input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
+small {
+    color: #e74d3c;
+    font-size: .85rem;
+    visibility: hidden;
+}
+
+.form-control.success input, .form-control.error select {
+    border: 2px solid #2ecc71;
+}
+
+.form-control.error input, .form-control.error select {
+    border: 2px solid #e74d3c;
+}
+
+.form-control.error small {
+    visibility: visible;
+}
+
+#elegir {
+    width: 100%; 
+    height: 30px;
+}
+
+#elegir option {
+    font-size: 1rem;
+}
+
+#presupuestoT {
+    width: 10%;
+    height: 5%;
+    text-align: center;
+    color: #000000;
+}
+
+#container_entrega p {
+    opacity: .8;
+    font-size: .8rem;
+}
+
+#container_entrega input {
+    text-align: center;
+}
+
+#entrega {
+    text-align: center;
+}
+
+#container_form_aceptado {
+    width: 80%;
+    display: none;
+    background-color: rgb(82, 246, 82);
+    font-size: 1.2rem;
+    padding: 10px 0;
+    text-align: center;
+    margin: 5px auto;
+    border-radius: 20px;
+}
+
+#grupo_condiciones label a {
+    color: #0000ff;
+}
+
+#grupo_condiciones label a:hover {
+    text-decoration: underline;
+}
+
+.cuerpo-tienda {
+    max-width: 1550px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.container-select-team, 
+.container-select-jugadores {
+    display: flex;
+    width: 100%;
+    border: 1px solid #000000;
+}
+
+.container-select-team img,
+.container-select-jugadores img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 0.8;
+    transition: 0.5s ease;
+}
+
+.container-select-team img:hover, 
+.container-select-jugadores img:hover {
+    opacity: 1;
+    filter: contrast(110%);
+}
+
+.moverizq_tienda, .moverder_tienda {
+    font-size: 2rem;
+    font-weight: 800;
+    cursor: pointer;
+    color: #000000;
+    margin: 80px 10px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    border: 1px solid rgb(0, 0, 0, 0.8);
+}
+
+.moverizq_tienda:hover, .moverder_tienda:hover{
+    background-color: rgb(0, 0, 0, 0.8);
+    color: rgb(255, 255, 255, 0.8);
+}
+
+

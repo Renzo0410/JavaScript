@@ -1,0 +1,92 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-nav-secundario {
+    background-color: rgb(37, 40, 42);
+}
+
+.nav-secundario-tienda {
+    max-width: 1550px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.container-encabezado-privacidad {
+    max-width: 1550px;
+    padding-top: 57px;
+    margin: auto;
+    background-color: rgb(0, 119, 200);
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-encabezado-privacidad img {
+    height: 155px;
+    width: 20px;
+    opacity: .8;
+}
+
+.title_infoLegal {
+    width: 100%;
+    color: #ffffff;
+    padding-left: 5.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.btns_avisos a {
+    color: #ffffff;
+}
+
+#aviso1, #aviso2, #aviso3 {
+    padding: 21px;
+    margin-right: 20px;
+}
+
+#aviso2, #aviso3 {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#aviso1, #aviso2:hover, #aviso3:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.container_text_il {
+    width: 85%;
+    margin: auto;
+    max-width: 1550px;
+    text-align: justify;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+#text_underline {
+    text-decoration: underline;
+}
+
+.list1, .list1_fz {
+    list-style-type: disc;
+}
+
+.list1_fz {
+    font-size: .8rem;
+}
+
+.list2 {
+    list-style-type: circle;
+}
+
+.list3 {
+    list-style-type: lower-latin;
+}
+
+.list4 {
+    list-style-type: lower-roman;
+    font-size: .8rem;
+}

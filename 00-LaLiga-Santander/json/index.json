@@ -1,0 +1,56 @@
+[
+    {
+        "equipo": "Real Madrid CF",
+        "ligas": "34",
+        "coparey": "19",
+        "supercopaes": "12"
+    },
+    {
+        "equipo": "FC Barcelona",
+        "ligas": "26",
+        "coparey": "31",
+        "supercopaes": "13"
+    },
+    {
+        "equipo": "Atlético de Madrid",
+        "ligas": "11",
+        "coparey": "10",
+        "supercopaes": "2"
+    },
+    {
+        "equipo": "Atlétic Club",
+        "ligas": "8",
+        "coparey": "23",
+        "supercopaes": "3"
+    },
+    {
+        "equipo": "Valencia CF",
+        "ligas": "6",
+        "coparey": "8",
+        "supercopaes": "1"
+    },
+    {
+        "equipo": "Real Sociedad",
+        "ligas": "2",
+        "coparey": "3",
+        "supercopaes": "1"
+    },
+    {
+        "equipo": "Deportivo de la Coruña",
+        "ligas": "6",
+        "coparey": "2",
+        "supercopaes": "3"
+    },
+    {
+        "equipo": "Sevilla FC",
+        "ligas": "1",
+        "coparey": "5",
+        "supercopaes": "1"
+    },
+    {
+        "equipo": "Real Betis",
+        "ligas": "1",
+        "coparey": "2",
+        "supercopaes": "0"
+    }
+]

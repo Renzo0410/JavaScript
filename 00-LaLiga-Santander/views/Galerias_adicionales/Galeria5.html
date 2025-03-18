@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaLiga | Galería 5</title>
+    <link rel="stylesheet" href="../css/galeria.css">
+    <link rel="stylesheet" href="../../css/index.css">
+    <link rel="stylesheet" href="../../css/mediaquery.css">
+    <link rel="stylesheet" href="./css/presupuesto.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    
+</head>
+<body>
+    
+    <!-- Cabecera principal (id='header-principal'). Estan colocados los escudos de los clubes y sus respectivos enlaces direccionando a las páginas webs de los mismos -->
+    <header id="header-principal">
+
+        <nav class="nav-clubes">
+
+            <!-- Pequeño título: "Web Clubes" -->
+            <!-- Ícono de ordenador portatil desde Bootstrap Icons -->
+            <div id="title-web">
+                <div id="web">Web Clubes</div>
+                <div id="laptop-icon"><i class="bi bi-laptop"></i></div>
+            </div>
+            
+            <!-- Contenedor de logos de cada club -->
+            <div class="container-clubes">
+
+                <!-- Cada club con la clase: class='clubes-primera' debido a que son de primera división -->
+                <!-- FC Barcelona -->
+                <div> 
+                    <a href="https://www.fcbarcelona.es/es/" target="blank"><img class="clubes-primera" src="../../img/LaLiga_Clubes/FC_Barcelona.png" alt="FC Barcelona"></a>
+                </div>
+                
+                <!-- Real Madrid -->
+                <div>
+                    <a href="https://www.realmadrid.com/" target="blank"><img class="clubes-primera" src="../../img/LaLiga_Clubes/Real_Madrid_CF.png" alt="Real Madrid CF"></a>
+                </div>
+                
+                <!-- Atlético de Madrid -->
+                <div>
+                    <a href="https://www.atleticodemadrid.com/" target="blank"><img class="clubes-primera" src="../../img/LaLiga_Clubes/Atletico_Madrid.png" alt="Atletico de Madrid"></a>
+                </div>            
+    
+                <!-- Athletic de Bilbao -->
+                <div>
+                    <a href="https://www.athletic-club.eus/" target="blank"><img class="clubes-primera" src="../../img/LaLiga_Clubes/Athletic_Bilbao.png" alt="Athletic Bilbao"></a>
+                </div>
+                
+                <!-- Real Betis -->
+                <div>
+                    <a href="https://www.realbetisbalompie.es/" target="blank"><img class="clubes-primera" src="../../img/LaLiga_Clubes/Real_Betis.png" alt="Real Betis"></a>
+                </div>
+                
+                <!-- Sevilla FC -->
+                <div>
+                    <a href="https://www.sevillafc.es/" target="blank"><img class="clubes-primera" src="../../img/LaLiga_Clubes/Sevilla.png" alt="Sevilla FC"></a>
+                </div>
+                
+                <!-- Valencia -->
+                <div>
+                    <a href="https://www.valenciacf.com/" target="blank"><img class="clubes-primera" src="../../img/LaLiga_Clubes/Valencia.png" alt="Valencia"></a>
+                </div>
+                
+                <!-- RCD Mallorca -->
+                <div>
+                    <a href="https://www.rcdmallorca.es/" target="blank"><img class="clubes-primera" src="../../img/LaLiga_Clubes/RCD_Mallorca.png" alt="RCD Mallorca"></a>
+                </div>
+                
+                <!-- Rayo Vallecano -->
+                <div>
+                    <a href="http://www.rayovallecano.es/" target="blank"><img class="clubes-primera" src="../../img/LaLiga_Clubes/Rayo_Vallecano.png" alt="Rayo Vallecano"></a>
+                </div>
+                
+                <!-- Real Sociedad -->
+                <div>
+                    <a href="https://www.realsociedad.eus/" target="blank"><img class="clubes-primera" src="../../img/LaLiga_Clubes/Real_Sociedad.png" alt="Real Sociedad"></a>
+                </div>
+                
+                <!-- Villarreal -->
+                <div>
+                    <a href="https://villarrealcf.es/" target="blank"><img class="clubes-primera" src="../../img/LaLiga_Clubes/Villarreal.png" alt="Villarreal CF"></a>
+                </div>
+                
+                <!-- RC Celta -->
+                <div>
+                    <a href="https://rccelta.es/" target="blank"><img class="clubes-primera" src="../../img/LaLiga_Clubes/Celta_Vigo.png" alt="RC Celta"></a>
+                </div>
+                
+                <!-- Real Valladolid -->
+                <div>
+                    <a href="https://www.realvalladolid.es/" target="blank"><img class="clubes-primera" src="../../img/LaLiga_Clubes/Valladolid.png" alt="Real Valladolid CF"></a>
+                </div>
+                
+                <!-- Getafe CF -->
+                <div>
+                    <a href="https://www.getafecf.com/" target="blank"><img class="clubes-primera" src="../../img/LaLiga_Clubes/Getafe.png" alt="Getafe CF"></a>
+                </div>
+                
+                <!-- Elche -->
+                <div>
+                    <a href="https://www.elchecf.es/" target="blank"><img class="clubes-primera" src="../../img/LaLiga_Clubes/Elche.png" alt="Elche CF"></a>
+                </div>
+                
+                <!-- Cadiz -->
+                <div>
+                    <a href="https://www.cadizcf.com/" target="blank"><img class="clubes-primera" src="../../img/LaLiga_Clubes/Cadiz.png" alt="Cadiz CF"></a>
+                </div>
+                
+                <!-- Espanyol -->
+                <div>
+                    <a href="https://www.rcdespanyol.com/" target="blank"><img class="clubes-primera" src="../../img/LaLiga_Clubes/Espanyol.png" alt="RCD Espanyol de Barcelona"></a>
+                </div>
+                
+                <!-- Almería -->
+                <div>
+                    <a href="https://www.udalmeriasad.com/" target="blank"><img class="clubes-primera" src="../../img/LaLiga_Clubes/Almeria.png" alt="UD Almería"></a>
+                </div>
+                
+                <!-- Girona -->
+                <div>
+                    <a href="https://www.gironafc.cat/es" target="blank"><img class="clubes-primera" src="../../img/LaLiga_Clubes/Girona.png" alt="Girona FC"></a>
+                </div>
+                
+                <!-- Osasuna -->
+                <div>
+                    <a href="https://www.osasuna.es/" target="blank"><img class="clubes-primera" src="../../img/LaLiga_Clubes/Osasuna.png" alt="CA Osasuna"></a>
+                </div>
+            </div>
+
+        </nav>
+        
+        <hr>
+
+        <!-- Contenedor de navegador secundario (class="container-nav-secundario") donde se encuentran las opciones de navegación a travez de la página -->
+        
+        <div class="container-nav-secundario">
+            
+            <!-- Ícono de "LaLiga" (Oculto hasta que el tamaño sea menos de 930px) -->
+            <div>
+                <img class="img-icon-laLiga" src="../../img/Icon_LaLiga/Laliga_icon.png" alt="Logo de LaLiga">
+            </div>
+
+            <!-- Menú de hamburguesa de Bootstrap Icons (Oculto hasta los 930px) -->
+            <i class="bi bi-list icon-button-burger"></i>
+
+            <!-- Navegador secundario (class='nav-secundario') -->
+            <nav class="nav-secundario nav-secundario-galeria">
+                <ul class="nav-ul nav-ul-galeria">
+                    <li><a href="../../index.html">Inicio</a></li>
+                    <li><a href="../Presupuesto.html">Tienda</a></li>
+                    <li><a href="../Galeria.html">Galería</a></li>
+                    <li><a href="../contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+            
+        </div>
+        
+    </header>
+
+    <!-- Contenedor de cuerpo de Galeria 5 -->
+    <main class="cuerpo-galeria">
+        
+        <!-- Contenedor de título de la "Galeria 5" -->
+        <div class="container-titulo-galeria">
+
+            <div id="title-galeria">
+
+                <img src="../../img/Bordes_decorativos_LaLiga/borde-gris-uno.png" alt="Borde gris de LaLiga">
+                <h1>Las mejores imágenes de la jornada 37 <span>de la Liga SmartBank</span></h1>
+                <img src="../../img/Bordes_decorativos_LaLiga/borde-gris-dos.png" alt="Borde gris de LaLiga">
+
+            </div>
+            
+        </div>
+        
+        <!-- Contenedor de slider de Galeria uno -->
+        
+        <div class="carrusel-galeria">
+
+            <!-- Contenedor de imagen principal -->
+            <div id="container-mostrar-img">
+                
+                <!-- Funcionalidad del Slider en "galeria.js" -->
+                <!-- Icono extraído de Bootstrap Icons (Izquierda) -->
+                <i class="bi bi-chevron-compact-left moverizq" onclick="moverizquierda()"></i>   
+                
+                <div class="mostrar-img">
+                    <img id="image_principal" src="../../img/Galeria_section/Galeria5/images-galeria/image3.jpeg" alt="Img de galeria 5">
+                </div>   
+                
+                <!-- Icono extraído de Bootstrap Icons (Derecha) -->
+                <i class="bi bi-chevron-compact-right moverder"  onclick="moverderecha()"></i>
+        
+            </div>
+            
+            <!-- Iconos de slider ocultos hasta menos de 400px -->
+            <div class="izq-der-oculto">
+                <i class="bi bi-chevron-compact-left" onclick="moverizquierda()"></i>   
+                <i class="bi bi-chevron-compact-right"  onclick="moverderecha()"></i>
+            </div>
+
+            <!-- Contenedor de imágenes del slider -->
+            <div class="images-carrusel-g1">
+                <img id="image1" src="../../img/Galeria_section/Galeria5/images-galeria/image1.jpeg" alt="Img de galeria 5">
+                <img id="image2" src="../../img/Galeria_section/Galeria5/images-galeria/image2.jpeg" alt="Img de galeria 5">
+                
+                <!-- Imagen principal mostrada -->
+                <img id="image3" src="../../img/Galeria_section/Galeria5/images-galeria/image3.jpeg" alt="Img de galeria 5">
+                
+                <img id="image4" src="../../img/Galeria_section/Galeria5/images-galeria/image4.jpeg" alt="Img de galeria 5">
+                <img id="image5" src="../../img/Galeria_section/Galeria5/images-galeria/image5.jpeg" alt="Img de galeria 5">
+                <img id="image6" src="../../img/Galeria_section/Galeria5/images-galeria/image6.jpeg" alt="Img de galeria 5">
+                <img id="image7" src="../../img/Galeria_section/Galeria5/images-galeria/image7.jpeg" alt="Img de galeria 5">
+                <img id="image8" src="../../img/Galeria_section/Galeria5/images-galeria/image8.jpeg" alt="Img de galeria 5">
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- Contenedor de galería (class='container-galeria') -->
+    <section class="container-galeria">
+
+        <!-- Título -->
+        <div class="title-galeria">
+            <h1>Galerías destacadas</h1>
+        </div>
+
+        <!-- Contenedor carrusel de galerías -->
+        <!-- Se usa una clase CSS de OwlCarousel2 (class='owl-carousel') (Enlace con link) -->
+        <div class="galerias owl-carousel">
+
+            <!-- Galería 1 -->
+            <div class="galeria1" id="galeriaUno">
+                <div>
+                    <h3>LaLiga <span>SmartBank</span></h3>
+                </div>
+                <div>
+                    <!-- Imagen principal de Galería 1 -->
+                    <a href="../Galeria.html"><img src="../../img/Galeria_section/Galeria1/galeria1-portada.jpeg" alt="Imagen de jugadores"></a>
+                </div>
+                <div class="info-galerias">
+                    <span class="span-responsive1">Las mejores imágenes de la jornada 40 de LaLiga SmartBank 2022/23.</span>
+                    <span class="span-responsive2">Joranada 40</span>
+                </div>
+                <div>
+                    <!-- Borde (img) decorativo de contenedor 'div' -->
+                    <img src="../../img/Bordes_decorativos_LaLiga/borde-negro-bottom.png" alt="Borde decorativo">
+                </div>
+            </div>
+
+            <!-- Galería 2 -->
+            <div class="galeria2" id="galeriaDos">
+                <div>
+                    <h3>LaLiga <span>Santander</span></h3>
+                </div>
+                <div>
+                    <!-- Imagen principal de Galeria 2 -->
+                    <a href="./Galeria2.html"><img src="../../img/Galeria_section/Galeria2/galeria2-portada.jpeg" alt="Imagen de jugadores"></a>
+                </div>
+                <div class="info-galerias">
+                    <span class="span-responsive1">Las mejores imágenes de la jornada 34 de LaLiga Santander 2022/23.</span>
+                    <span class="span-responsive2">Joranada 34</span>
+                </div>
+                <div>
+                    <!-- Borde (img) decorativo de contenedor 'div' -->
+                    <img src="../../img/Bordes_decorativos_LaLiga/borde-negro-bottom.png" alt="Borde decorativo">
+                </div>
+            </div>
+
+            <!-- Galería 3 -->
+            <div class="galeria3" id="galeriaTres">
+                <div>
+                    <h3>LaLiga <span>SmartBank</span></h3>
+                </div>
+                <div>
+                    <!-- Imagen principal de Galería 3 -->
+                    <a href="./Galeria3.html"><img src="../../img/Galeria_section/Galeria3/galeria3-portada.jpeg" alt="Imagen de jugadores"></a>
+                </div>
+                <div class="info-galerias">
+                    <span class="span-responsive1">Las mejores imágenes de la jornada 38 de LaLiga SmartBank 2022/23.</span>
+                    <span class="span-responsive2">Joranada 38</span>
+                </div>
+                <div>
+                    <img src="../../img/Bordes_decorativos_LaLiga/borde-negro-bottom.png" alt="Borde decorativo">
+                </div>
+            </div>
+
+            <!-- Galeria 4 -->
+            <div class="galeria4" id="galeriaCuatro">
+                <div>
+                    <h3>LaLiga <span>Santander</span></h3>
+                </div>
+                <div>
+                    <!-- Imagen principal de Galería 4 -->
+                    <a href="./Galeria4.html"><img src="../../img/Galeria_section/Galeria4/galeria4-portada.jpeg" alt="Imagen de jugadores"></a>
+                </div>
+                <div class="info-galerias">
+                    <span class="span-responsive1">Las mejores imágenes de la jornada 33 de LaLiga Santander 2022/23.</span>
+                    <span class="span-responsive2">Joranada 33</span>
+                </div>
+                <div>
+                    <!-- Borde (img) decorativo de contenedor 'div' -->
+                    <img src="../../img/Bordes_decorativos_LaLiga/borde-negro-bottom.png" alt="Borde decorativo">
+                </div>
+            </div>
+
+            <!-- Galería 5 -->
+            <div class="galeria5" id="galeriaCinco">
+                <div>
+                    <h3>LaLiga <span>SmartBank</span></h3>
+                </div>
+                <div>
+                    <!-- Imagen principal de Galería 5 -->
+                    <a href="./Galeria5.html"><img src="../../img/Galeria_section/Galeria5/galeria5-portada.jpeg" alt="Imagen de jugadores"></a>
+                </div>
+                <div class="info-galerias">
+                    <span class="span-responsive1">Las mejores imágenes de la jornada 37 de LaLiga SmartBank 2022/23.</span>
+                    <span class="span-responsive2">Joranada 37</span>
+                </div>
+                <div>
+                    <!-- Borde (img) decorativo de contenedor 'div' -->
+                    <img src="../../img/Bordes_decorativos_LaLiga/borde-negro-bottom.png" alt="Borde decorativo">
+                </div>
+            </div>
+
+            <!-- Galería 6 -->
+            <div class="galeria6" id="galeriaSeis">
+                <div>
+                    <h3>LaLiga <span>Santander</span></h3>
+                </div>
+                <div>
+                    <!-- Imagen principal de Galería 6 -->
+                    <a href="./Galeria6.html"><img src="../../img/Galeria_section/Galeria6/galeria6-portada.jpeg" alt="Imagen de jugadores"></a>
+                </div>
+                <div class="info-galerias">
+                    <span class="span-responsive1">Las mejores imágenes de la jornada 38 de LaLiga Santander 2022/23.</span>
+                    <span class="span-responsive2">Joranada 38</span>
+                </div>
+                <div>
+                    <!-- Borde (img) decorativo de contenedor 'div' -->
+                    <img src="../../img/Bordes_decorativos_LaLiga/borde-negro-bottom.png" alt="Borde decorativo">
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Contenedor patrocinadores (class='container-patrocinadores') -->
+    <section class="container-patrocinadores">
+
+        <!-- Título -->
+        <div class="patrocinador-principal">
+            <h5>Patrocinador principal</h5>
+
+            <!-- Imagen de banco Santander -->
+            <div>
+                <a href="https://www.santander.com/es/home" target="blank"><img src="../../img/Patrocinadores/logo-santander.png" alt="Logo de banco Santander"></a>
+            </div>
+        </div>
+
+
+        <!-- Contenedor de patrocinadores oficiales/secundarios -->
+        <div class="patrocinador-secundario">
+
+            <!-- Título -->
+            <h5>Patrocinadores oficiales</h5>
+
+            <!-- Contenedor de patrocinadores -->
+            <div class="container-p-o">
+
+                <!-- Marca: Puma -->
+                <a href="https://eu.puma.com/es/es/home" target="blank">
+                    <img id="marca-puma" src="../../img/Patrocinadores/Puma.png" alt="Marca Puma">
+                </a>
+
+                <!-- Marca: Fifa23 -->
+                <a href="https://www.ea.com/es-es/games/fifa/fifa-23" target="blank">
+                    <img id="marca-fifa23" src="../../img/Patrocinadores/Fifa23.png" alt="Marca Fifa23">
+                </a>
+                
+                <!-- Marca: Microsoft -->
+                <a href="https://www.microsoft.com/es-es/" target="blank">
+                    <img id="marca-microsoft" src="../../img/Patrocinadores/Microsoft.png" alt="Marca Microsoft">
+                </a>
+                
+                <!-- Marca: Mahou -->
+                <a href="https://www.mahou.es/" target="blank">
+                    <img id="marca-mahou" src="../../img/Patrocinadores/Mahou.png" alt="Marca Mahou">
+                </a>
+                
+                <!-- Marca: Soares -->
+                <a href="https://sorare.com/football/laliga" target="blank">
+                    <img id="marca-soares" src="../../img/Patrocinadores/Sorare.png" alt="Marca">
+                </a>
+                
+                <!-- Marca: GrowingTogether -->
+                <a href="https://www.bkt-tires.com/es/es/" target="blank">
+                    <img id="marca-growingtogether" src="../../img/Patrocinadores/GrowingTogether.png" alt="Marca GrowinTogether">
+                </a>
+
+                <!-- Marca: Golazos -->
+                <a href="https://laligagolazos.com/" target="blank">
+                    <img id="marca-golazos" src="../../img/Patrocinadores/Golazos.png" alt="Marca Golazos">
+                </a>
+
+                <!-- Marca: Socios.com -->
+                <a href="https://www.socios.com/" target="blank">
+                    <img id="marca-socios" src="../../img/Patrocinadores/Socios.png" alt="Marca Socios">
+                </a>
+                
+                <!-- Marca: Gol-Ball -->
+                <a href="https://golball.com/" target="blank">
+                    <img id="marca-gol-ball" src="../../img/Patrocinadores/Gol-ball.png" alt="Marca Gol-Ball">
+                </a>
+                
+                <!-- Marca: El Corte Inglés -->
+                <a href="https://www.elcorteingles.es/" target="blank">
+                    <img id="marca-el-corte-ingles" src="../../img/Patrocinadores/ElCorteIngles.png" alt="Marca El Corte Inglés">
+                </a>
+                
+                <!-- Marca: Allianz -->
+                <a href="https://www.allianz.es" target="blank">
+                    <img id="marca-allianz" src="../../img/Patrocinadores/Allianz.png" alt="Marca Allianz">
+                </a>
+                
+                <!-- Marca: Burguer King -->
+                <a href="https://www.burgerking.es/home" target="blank">
+                    <img id="marca-burguer-king" src="../../img/Patrocinadores/BurguerKing.png" alt="Marca Burguer King">
+                </a>
+
+                <!-- Marca: Panini -->
+                <a href="https://www.panini.es/" target="blank">
+                    <img id="marca-panini" src="../../img/Patrocinadores/Panini.png" alt="Marca Panini">
+                </a>
+
+                <!-- Marca: Marques de Atrio -->
+                <a href="https://marquesdelatrio.com/" target="blank">
+                    <img id="marca-marques-de-atrio" src="../../img/Patrocinadores/MarquesdelAtrio.png" alt="Marca Marques de Atrio">
+                </a>
+                
+                <!-- Marca: Nissan -->
+                <a href="https://www.nissan.es/gama/coches-e-power.html" target="blank">
+                    <img id="marca-nissan" src="../../img/Patrocinadores/Nissan.png" alt="Marca Nissan">
+                </a>
+                
+                <!-- Marca: Vivo -->
+                <a href="https://www.vivo.com/es" target="blank">
+                    <img id="marca-vivo" src="../../img/Patrocinadores/Vivo.png" alt="Marca Vivo">
+                </a>
+                
+                <!-- Marca: Cabreiroa -->
+                <a href="https://cabreiroa.es/" target="blank">
+                    <img id="marca-cabreiroa" src="../../img/Patrocinadores/Cabreiroa.png" alt="Marca Cabreiroa">
+                </a>
+                
+                <!-- Marca: Legends -->
+                <a href="https://legends.football/" target="blank">
+                    <img id="marca-legends"  src="../../img/Patrocinadores/Legends.png" alt="Marca Legends">
+                </a>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="pie_pagina">
+        <div class="pie_pagina1">
+            <img src="../../img/Icon_LaLiga/LaLiga_logo_fondo_negro.png" alt="Icono de LaLiga Santander">
+
+            <div class="container_redesSociales">
+                <div id="rs1"></div>
+                <div id="rs2"></div>
+                <div id="rs3"></div>
+                <div id="rs4"></div>
+                <div id="rs5"></div>
+                <div id="rs6"></div>
+                <div id="rs7"></div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="container_politicas">
+            <span><a href="../Politicas_de_privacidad/informacion_legal.html">Información legal</a></span>
+            <span><a href="../Politicas_de_privacidad/politica_de_privacidad.html">Política de Privacidad</a></span>
+            <span><a href="../Politicas_de_privacidad/politica_de_cookis.html">Política de Cookis</a></span>
+            <span>2023 LaLiga</span>
+        </div>
+
+    </footer>
+
+    <script src="../../js/JQuery/JQuery-3.7.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="../../js/menuburger.js"></script>
+    <script src="../js/galeria.js"></script>
+    <script src="../../js/slider_galeria.js"></script>
+
+</body>
+</html>

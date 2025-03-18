@@ -1,0 +1,1012 @@
+@media screen and (max-width: 1400px) {
+    #web {
+        font-size:55%;
+    }
+
+    .container-aside-section1 {
+        flex-direction: column;
+    }
+
+    .container-tabla {
+        margin-bottom: 20px;
+    }
+
+    .tabla-clasificacion{
+        grid-template-columns: 5px 30px 80px 250px 100px 60px 60px 60px 60px 60px 60px 100px 300px;
+    }
+
+    .columna-oculta {
+        display: block;
+    }
+
+    .container-p-o {
+        grid-template-columns: repeat(5, 15%);
+    }
+}
+
+@media screen and (max-width: 1340px) {
+    .tabla-clasificacion{
+        grid-template-columns: 5px 30px 80px 200px 0px 50px 50px 50px 50px 50px 50px 80px 250px;
+    }
+
+    .info-jugador {
+        font-size: .7rem;
+        line-height: 10px;
+    }
+}
+
+@media screen and (max-width: 1130px) {
+    #web {
+        font-size:45%;
+    }
+
+    .clubes-primera {
+        height: 20px;
+    }
+
+    .tabla-clasificacion{
+        font-size: .7rem;
+        grid-template-columns: 5px 30px 100px 200px 100px 50px 50px 50px 50px 50px 50px 100px;
+    }
+
+    .clubes-primera-tabla {
+        height: 18px;
+    }
+
+    .columna-oculta2 {
+        display: none;
+    }
+
+    .img-btn-estadio {
+        height: 28px;
+    }
+
+    .galerias h3, .info-galerias {
+        font-size: .8rem;
+    }
+
+    #title-galeria h1 {
+        font-size: 1.5rem;
+    }
+
+    #title-galeria img {
+        height: 8rem;
+    }
+
+    .video_jugador_determinante  {
+        font-size: .85rem;
+    }
+
+    .info-jugador {
+        font-size: .6rem;
+        line-height: 9px;
+    }
+
+    .title_contacto h1 {
+        font-size: 1.8rem;
+    }
+
+    .title_contacto span {
+        font-size: .9rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .container-p-o {
+        grid-template-columns: repeat(4, 20%);
+    }
+
+    .container-p-o a {
+        padding: 8px;
+    }
+
+    #marca-legends,
+    #marca-vivo {
+    width: 40%;
+    }
+
+    #marca-puma, 
+    #marca-burguer-king,
+    #marca-gol-ball {
+    width: 70%;
+    }
+
+    #marca-fifa23, 
+    #marca-microsoft,
+    #marca-mahou,
+    #marca-soares,
+    #marca-growingtogether,
+    #marca-el-corte-ingles,
+    #marca-panini,
+    #marca-marques-de-atrio,
+    #marca-cabreiroa {
+        width: 80%;
+    }
+
+    #marca-golazos,
+    #marca-socios, 
+    #marca-allianz,
+    #marca-nissan {
+        width: 85%;
+    }
+
+    .info-jugador {
+        font-size: .55rem;
+        line-height: 8px;
+    }
+
+    .title_contacto h1 {
+        font-size: 1.6rem;
+    }
+
+    .title_contacto span {
+        font-size: .8rem;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .nav-clubes {
+        display: none;
+    }
+
+    #borde-decoration-nav {
+        display: none;
+    }
+
+    .video-fondo {
+        top: 0;
+        padding-top: 65px;
+    }
+
+    .container-nav-secundario {
+        position: fixed;
+        padding: .5em;
+        border: 1px solid white;
+        background-color: rgb(37, 40, 42);
+    }
+
+    .img-icon-laLiga {
+        display: block;
+    }
+
+    .icon-button-burger {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .nav-secundario {
+        width: 100%;
+        height: 0;
+        overflow: hidden;
+        pointer-events: none;
+        transition: all .5s ease;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-ul {
+        flex-direction: column;
+    }
+
+    .nav-ul li {
+        margin: 1rem 0;
+    }
+
+    .desplazar {
+        height: 55vh;
+        pointer-events: auto;
+    }
+
+    .title-tabla h1, section h1 {
+        font-size: 1.25rem;
+    }
+
+    #logo-LaLiga{
+        width: 115px;
+    }
+
+    .tabla-clasificacion{
+        grid-template-columns: 5px 30px 50px 200px 80px 45px 45px 45px 45px 45px 45px 80px;
+    }
+
+    .galerias h3, .info-galerias {
+        font-size: .7rem;
+    }
+
+    .info-galerias {
+        padding: 20px;
+    }
+
+    .container-p-o {
+        grid-template-columns: repeat(3, 25%);
+    }
+
+    #marca-legends,
+    #marca-vivo {
+    width: 50%;
+    }
+
+    #marca-puma, 
+    #marca-burguer-king,
+    #marca-gol-ball {
+    width: 80%;
+    }
+
+    #marca-fifa23, 
+    #marca-microsoft,
+    #marca-mahou,
+    #marca-soares,
+    #marca-growingtogether,
+    #marca-el-corte-ingles,
+    #marca-panini,
+    #marca-marques-de-atrio,
+    #marca-cabreiroa {
+        width: 90%;
+    }
+
+    #marca-golazos,
+    #marca-socios, 
+    #marca-allianz,
+    #marca-nissan {
+        width: 95%;
+    }
+
+    #title-galeria h1 {
+        font-size: 1.35rem;
+    }
+
+    .max-gol img {
+        width: 90%;
+    }
+
+    .pie_pagina1 img {
+        height: 60px;
+    }
+
+    #rs1, #rs2, #rs3, #rs4, #rs5, #rs6, #rs7 {
+        height: 45px;
+        width: 45px;
+        margin-right: 22px;
+    }
+
+    #elegir option, #entrega option {
+        font-size: .8rem;
+    }
+
+    .title_infoLegal h1, .container_text_il h1 {
+        font-size: 1.8rem;
+    }
+
+    .container_text_il h2 {
+        font-size: 1.2rem;
+    }
+
+    .container_text_il h3 {
+        font-size: 1rem;
+    }
+
+    .text_il {
+        font-size: .9rem;
+    }
+
+    #aviso1_oculto {
+        display: none;
+    }
+
+    #player_Lewandowski {
+        flex-direction: column;
+    }
+
+    .container_max_info {
+        margin-bottom: 3%;
+        flex: 100%;
+    }
+
+    .video_jugador_determinante {
+        flex: 100%;
+    }
+
+    .max-gol img {
+        width: 100%;
+    }
+
+    .info-jugador {
+        font-size: .9rem;
+        line-height: 14px;
+        margin: 0;
+        margin-left: 3%;
+    }
+
+    .container_map_contact {
+        flex-direction: column;
+    }
+
+    .container_map_dinamico {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .columna-oculta3 {
+        display: none;
+    }
+
+    .tabla-clasificacion{
+        grid-template-columns: 5px 30px 50px 240px 80px 45px 45px 45px 80px;
+    }
+
+    #title-galeria h1 {
+        font-size: 1.15rem;
+    }
+
+    .container-select-team, 
+    .container-select-jugadores {
+        align-items: center;
+    }
+
+    .container-select-team img, 
+    .container-select-jugadores img  {
+        height: 80%;
+    }
+
+    #img_kit1, #img_kitD1,
+    #img_kit2, #img_kitD2,
+    #img_kit4, #img_kitD4, 
+    #img_kit5, #img_kitD5, 
+    #img_kit6 {
+        display: none;
+    }
+    
+    .moverizq_tienda, .moverder_tienda {
+        color: #000000;
+        background-color: rgb(255, 255, 255, 0.8);
+    }
+
+    .moverizq_tienda:hover, .moverder_tienda:hover{
+        color: rgb(0, 0, 0);
+    }
+
+    .caja_estadios {
+        flex-direction: column;
+    }
+
+    .container_caja_estadios {
+        padding: 0;
+        padding-bottom: 20px;
+    }
+
+    .container_description_estadio, .container_map_estadio {
+        flex: 100%;
+    }
+
+    .container_map_estadio {
+        padding-top: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .map_estadio {
+        width: 80%;
+        height: 400px;
+    }
+
+    .container_estadios {
+        display: none;
+    }
+
+    .star_icon2 {
+        margin-left: 15px;
+    }
+
+    .title_icon_estadios2 {
+        color: #ffffff;
+        background-color: rgb(37, 40, 42);
+        font-size: 1.5rem;
+        font-family: 'Tektur', cursive;
+        display: flex;
+        width: 100%;
+        max-width: 1550px;
+        margin: auto;
+        justify-content: center;
+        margin-bottom: 10px;
+        padding: 10px 0;
+    }
+
+    .info-jugador {
+        font-size: .8rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .container-nav-secundario {
+        margin-top: 0px;
+        border: 1px solid white;
+    }
+
+    .title-tabla h1, section h1 {
+        font-size: 1rem;
+    }
+
+    #logo-LaLiga{
+        width: 100px;
+    }
+
+    #btn-ctg1, #btn-ctg2 {
+        font-size: 1.05rem;
+        padding: 8px 0px;
+    }
+    
+    #p4, #p5, #p6 {
+        font-size: .7rem;
+    }
+
+    .text-noticia {
+        font-size: 15px;
+    }
+
+    #title-img-noticia {
+        font-size: 14px;
+    }
+
+    .columna-oculta3 {
+        display: none;
+    }
+
+    .tabla-clasificacion{
+        font-size: .6rem;
+        grid-template-columns: 5px 30px 50px 220px 55px 40px 40px 40px 55px;
+    }
+
+    .clubes-primera-tabla {
+        height: 15px;
+    }
+
+    .img-btn-estadio {
+        height: 22px;
+    }
+
+    .pie_pagina1 {
+        flex-direction: column;
+    }
+    
+    .pie_pagina1 img {
+        margin-bottom: 20px;
+        height: 70px;
+    }
+
+    #rs1, #rs2, #rs3, #rs4, #rs5, #rs6, #rs7 {
+        height: 55px;
+        width: 55px;
+        margin: 0px 10px;
+    }
+
+    .container_politicas {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        text-align: center;
+    }
+
+    .container_politicas span {
+        padding: 10px;
+    }
+
+    .form-control {
+        font-size: 1rem;
+    }
+
+    .btns_avisos {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .title_infoLegal {
+        margin-top: 20px;
+        width: 100%;
+        padding-right: 2.5%;
+    }
+
+    .title_infoLegal h1 {
+        margin-bottom: 10px;
+    }
+
+    .container-encabezado-privacidad img {
+        display: none;
+    }
+
+    #aviso2, #aviso3 {
+        border-top: 1px solid #ffffff;
+        border-left: 1px solid #ffffff;
+        border-right: 1px solid #ffffff;
+    }
+
+    .info-jugador {
+        font-size: .7rem;
+        line-height: 12px;
+    }
+
+    .tabla_titulos {
+        font-size: .85rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    #title-galeria h1 {
+        font-size: 1rem;
+    }
+    
+    #title-galeria img {
+        height: 7rem;
+    }
+    
+    .container-cambio-team {
+        width: 60%;
+    }
+    
+    .container-cambio-team input {
+        font-size: 1rem;
+    }
+
+    .container-jugadores h1 {
+        word-spacing: 7px;
+        letter-spacing: 7px;
+    }
+    
+    .info-jugador {
+        font-size: .65rem;
+    }
+
+    .btn_titulos_team button {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .columna-oculta {
+        display: none;
+    }
+
+    .tabla-clasificacion{
+        font-size: .5rem;
+        grid-template-columns: 5px 30px 80px 180px 55px 55px;
+    }
+
+    .clubes-primera-tabla {
+        height: 12.5px;
+    }
+
+    .title-estadio h3 {
+        padding: 10px 0px;
+    }
+
+    .img-estadio {
+        width: 90%;
+        margin: 20px 0px;
+    }
+
+    .nav-ul li {
+        font-size: 1.25rem;
+    }
+
+    .info-galerias {
+        padding: 5px;
+    }
+
+    .desplazar {
+        height: 50vh;
+    }
+
+    .galerias h3 {
+        font-size: .8rem;
+    }
+
+    .info-galerias span {
+        padding: 20px;
+        font-size: 1.2rem;
+    }
+
+    .container-p-o {
+        grid-template-columns: repeat(3, 30%);
+    }
+
+    .container_redesSociales {
+        display: grid;
+        grid-template-columns: repeat(4, 25%);
+    }
+
+    #rs5, #rs6, #rs7 {
+        margin-top: 20px;
+    }
+
+    .form-control {
+        font-size: .9rem;
+    }
+
+    .info-jugador {
+        font-size: .6rem;
+        line-height: 10px;
+    }
+
+    .tabla_titulos {
+        font-size: .6rem;
+    }
+
+    .btn_titulos_team button {
+        font-size: 1.35rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .caja-estadio {
+        display: none;
+    }
+    .map-estadio {
+        height: 300px;
+        
+    }
+
+    #title-galeria h1 {
+        font-size: .8rem;
+    }
+
+    .form-control {
+        font-size: .8rem;
+    }
+
+    .title_infoLegal h1, .container_text_il h1 {
+        font-size: 1.5rem;
+    }
+
+    .container_text_il h2 {
+        font-size: 1rem;
+    }
+
+    .container_text_il h3 {
+        font-size: .8rem;
+    }
+
+    .text_il {
+        font-size: .8rem;
+    }
+
+    .info-jugador {
+        font-size: .55rem;
+        line-height: 9px;
+    }
+
+    .container-jugadores h1 {
+        word-spacing: 6px;
+        letter-spacing: 5px;
+    }
+
+    .title_icon_estadios2 {
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .video-fondo {
+        padding-top: 55px;
+    }
+
+    .img-icon-laLiga {
+        height: 30px;
+    }
+
+    .icon-button-burger {
+        width: 2.5rem;
+        height: 2.5rem;
+        font-size: 2rem;
+    }
+
+    .nav-lSantander-lSmartBank {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #btn-ctg1, #btn-ctg2 {
+        width: 100%;
+        font-size: .9rem;
+        padding: 5px 0px;
+    }
+
+    #logo-LaLiga{
+        width: 85px;
+    }
+
+    #p4, #p5, #p6 {
+        font-size: .6rem;
+    }
+
+    .text-noticia {
+        font-size: 14px;
+    }
+
+    #title-img-noticia {
+        font-size: 12px;
+    }
+
+    .tabla-clasificacion{
+        font-size: .4rem;
+        grid-template-columns: 5px 40px 50px 100px 40px 40px;
+    }
+
+    .clubes-primera-tabla {
+        height: 10px;
+    }
+
+    .owl-dot {
+        height: 15px;
+        width: 35px;
+        margin: 0px 10px;
+    }
+
+    .patrocinador-principal a img {
+        height: 30px;
+    }
+
+    #title-galeria h1 {
+        padding-top: 70px;
+        padding-bottom: 5px;
+        font-size: .8rem;
+    }
+
+    #title-galeria h1 span {
+        display: none;
+    }
+
+    #title-galeria img {
+        padding-top: 50px;
+    }
+
+    .container-cambio-team {
+        width: 80%;
+    }
+
+    .container-cambio-team input {
+        font-size: .9rem;
+    }
+
+    #player_Lewandowski, #player_Benzema {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .title_infoLegal h1, .container_text_il h1 {
+        font-size: 1.25rem;
+    }
+
+    .container_text_il h2 {
+        font-size: .8rem;
+    }
+
+    .container_text_il h3 {
+        font-size: .7rem;
+    }
+
+    .text_il {
+        font-size: .7rem;
+    }
+
+    .info-jugador {
+        line-height: 7px;
+    }
+
+    .container-jugadores h1 {
+        word-spacing: 3px;
+        letter-spacing: 4px;
+    }
+
+    .map_estadio {
+        height: 350px;
+    }
+
+    .title_contacto h1 {
+        font-size: 1.4rem;
+    }
+
+    .title_contacto span {
+        font-size: .7rem;
+    }
+
+    .tabla_titulos {
+        font-size: .55rem;
+    }
+    
+    .btn_titulos_team button {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #title-img-noticia {
+        padding: 3px 0px;
+        font-size: 10px;
+    }
+
+    .nav-ul li {
+        font-size: 1rem;
+    }
+
+    .desplazar {
+        height: 45vh;
+    }
+
+    .info-galerias span {
+        padding: 15px;
+        font-size: 1rem;
+    }
+
+    .owl-dot {
+        height: 15px;
+        width: 30px;
+        margin: 0px 5px;
+    }
+
+    .moverizq, .moverder {
+        font-size: 1.5rem;
+    }
+
+    .img-nota-prensa {
+        width: 80%;
+    }
+
+    .images-carrusel-g1 {
+        display: none;
+    }
+
+    #container-mostrar-img img {
+        width: 100%;
+        margin: auto;
+    }
+
+    .izq-der-oculto {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .izq-der-oculto i {
+        color: #ffffff;
+        font-size: 2rem;
+    }
+
+    .izq-der-oculto i:hover {
+        color: #000000;
+        background-color: #ffffff;
+        font-size: 2rem;
+    }
+
+    #title-galeria img {
+        height: 6.5rem;
+    }
+
+    .container-jugadores h1 {
+        word-spacing: 3px;
+        letter-spacing: 2px;
+    }
+
+    .container_max_info {
+        flex-direction: column;
+    }
+
+    .max-gol img {
+        width: 80%;
+        border-radius: 50%;
+        border: 5px solid rgba(0, 0, 0, 0.5);
+    }
+
+    .info-jugador {
+        padding: 5% 10%;
+        margin-left: 0;
+        margin-top: 4%;
+        margin-bottom: 2%;
+    }
+
+    .max-gol {
+        background-color: rgb(52, 88, 111);
+        padding: 5px 0;
+        border-radius: 30px;
+        box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.5);
+    }
+
+    .title_icon_estadios2 {
+        font-size: 1rem;
+    }
+
+    .informacion_estadio {
+        font-size: .9rem;
+    }
+
+    .map_estadio {
+        height: 300px;
+    }
+
+    .title_contacto h1, .registro_form h2 {
+        font-size: 1.2rem;
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+    .container-p-o {
+        grid-template-columns: repeat(2, 45%);
+    }
+
+    #title-galeria h1 {
+        font-size: .7rem;
+    }
+
+    #rs3, #rs4 {
+        margin-top: 20px;
+    }
+
+    .container_redesSociales {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+    }
+
+    .container_politicas {
+        grid-template-columns: repeat(1, 100%);
+    }
+
+    .container-jugadores h1 {
+        word-spacing: 2px;
+        letter-spacing: 0px;
+    }
+
+    .title_icon_estadios2 {
+        font-size: .9rem;
+    }
+
+    .informacion_estadio {
+        font-size: .75rem;
+    }
+
+    .map_estadio {
+        height: 250px;
+    }
+
+    .tabla_titulos {
+        font-size: .4rem;
+    }
+    
+    .btn_titulos_team button {
+        font-size: .9rem;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .tabla-clasificacion{
+        font-size: .4rem;
+        grid-template-columns: 3px 30px 40px 90px 30px 30px;
+    }
+
+    .owl-dot {
+        height: 15px;
+        width: 20px;
+        margin: 0px 5px;
+    }
+
+    .container-jugadores h1 {
+        font-size: .9rem;
+    }
+
+    .title_icon_estadios2 {
+        font-size: .8rem;
+    }
+
+    .informacion_estadio {
+        font-size: .7rem;
+    }
+
+    .map_estadio {
+        height: 200px;
+    }
+
+    .btn_titulos_team button {
+        font-size: .8rem;
+    }
+}

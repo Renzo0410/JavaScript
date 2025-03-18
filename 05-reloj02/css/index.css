@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(../img/fondo.png);
+    background-size: cover;
+    color: white;
+    font-size: 16px;
+}
+
+.container{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.widget{
+    width: 40%;
+    margin: 2rem;
+}
+
+.widget p{
+    display: inline-block;
+    line-height: 2rem;
+}
+
+.date{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 100%;
+}
+
+
+.clock{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+    padding: 20px;
+    font-size: 4rem;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.clock .container-seconds{
+    display: inline-block;
+}
+
+/* .clock .seconds, .clock .am-pm{
+    font-size: 2rem;
+    display: block;
+} */
+

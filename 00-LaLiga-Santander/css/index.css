@@ -1,0 +1,876 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.nav-clubes {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    max-width: 1550px;
+    margin: auto;
+    align-items: center;
+    padding: 5px 0px;
+}
+
+#title-web {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 8%;
+}
+
+#web {
+    flex: 50%;
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 75%;
+    margin-left: 5%;
+}
+
+#laptop-icon {
+    display: flex;
+}
+
+#web,
+#laptop-icon {
+    padding: 5%;
+    cursor: crosshair;
+}
+
+.container-clubes {
+    display: flex;
+    justify-content: space-around;
+    flex: 92%;
+    flex-direction: row;
+}
+
+.clubes-primera {
+    display: flex;
+    height: 25px;
+    cursor: pointer;
+}
+
+.clubes-primera:hover {
+    opacity: 0.8;
+}
+
+.video-fondo {
+    position: relative;
+    margin: auto;
+    left: 0;
+    width: 100%;
+    max-width: 1550px;
+    display: flex;
+    object-fit: cover;
+}
+
+.container-nav-secundario {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    z-index: 3;
+    width: 100%;
+    padding: 1em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-icon-laLiga {
+    display: none;
+    height: 35px;
+}
+
+/* BOTON DE HAMBURGUESA */
+.icon-button-burger {
+    display: none;
+    width: 3rem;
+    height: 3rem;
+    font-size: 2.5rem;
+    color: rgb(255, 255, 255);
+}
+
+.nav-ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-ul li {
+    margin: 0 1.5rem;
+    font-size: 1.35rem;
+}
+
+.nav-ul li a {
+    color: rgb(255, 255, 255);
+}
+
+.nav-ul li a:hover {
+    text-decoration: underline;
+}
+
+.container_estadios {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-size: 80%;
+    max-width: 1550px;
+    margin: auto;
+    border-bottom: 1px solid #000000;
+}
+
+.star_icon {
+    padding: 10%;
+}
+
+.title_icon_estadios {
+    opacity: .9;
+    flex-direction: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1%;
+    cursor: crosshair;
+}
+
+.title_icon_estadios2 {
+    display: none;
+}
+
+.list_clubes_estadios {
+    margin: auto;
+    display: flex;
+    flex: 90%;
+    width: 100%;
+    max-width: 1550px;
+}
+
+.list_clubes_estadios div {
+    display: flex;
+    width: 5%;
+    justify-content: center;
+    padding: 10px 0;
+    align-items: center;
+}
+
+.list_clubes_estadios div:hover {
+    background-color: #d8d8d8;
+    cursor: pointer;
+}
+
+.caja_estadios {
+    width: 100%;
+    max-width: 1550px;
+    margin: auto;
+}
+
+.list_clubes_estadios div img {
+    filter: contrast(120%);
+    opacity: 1;
+}
+
+.container_caja_estadios {
+    width: 100%;
+    margin: auto;
+    max-width: 1550px;
+    padding: 20px 0;
+}
+
+.caja_estadios {
+    display: flex;
+    width: 100%;
+}
+
+.container_description_estadio, .container_map_estadio {
+    flex: 50%;
+}
+
+.title_estadio, .img_estadio, .informacion_estadio {  
+    font-family: 'Tektur', cursive;
+    border: 1px solid black;
+    width: 80%;
+}
+
+.title_estadio {
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.img_estadio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.img_estadioMaps {
+    width: 100%;
+}
+
+.title_estadioMaps {
+    text-align: center;
+}
+
+.description_estadio {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.informacion_estadio ul {
+    padding-left: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.informacion_estadio ul li {
+    list-style-type: circle;
+}
+
+.container_map_estadio {
+    width: 100%;
+}
+
+.map_estadio{
+    width: 90%;
+    height: 100%;
+}
+
+.img_estadio img {
+    padding: 5%;
+    width: 80%;
+}
+
+.img_estadio img:hover {
+    filter: contrast(120%);
+    cursor: pointer;
+    transform: scale(1.1)
+}
+
+.borde_decorativo_estadio {
+    width: 95%;
+    margin: auto;
+    max-width: 1550px;
+    opacity: .8;
+}
+
+.container-aside-section1 {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: row;
+    max-width: 1550px;
+    margin: auto;
+}
+
+aside {
+    flex: 30%;
+    height: 500px;
+}
+
+.title-tabla {
+    display: flex;
+    margin-top: 15px;
+    flex-direction: column;
+    text-align: center;
+}
+
+#logo-LaLiga{
+    display: flex;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    width: 130px;
+}
+
+.container-tabla {
+    display: flex;
+    flex-direction: column;
+}
+
+.tabla-clasificacion{
+    display: grid;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 10px;
+    font-size: .8rem;
+    grid-template-columns: 5px 30px 80px 150px 60px 60px;
+}
+
+.tabla-clasificacion div {
+    padding: 6px 0px;
+}
+
+.escudo-club {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clubes-primera-tabla {
+    display: flex;
+    height: 20px;
+    cursor: pointer;
+}
+
+.columna-oculta {
+    display: none;
+}
+
+.rgb11-18-22{
+    background-color: rgb(11, 18, 22);
+}
+
+.rgb37-65-80{
+    background-color: rgb(37, 65, 80);
+}
+
+.rgb0-179-137{
+    background-color: rgb(0, 179, 137);
+}
+
+.rgb245-190-1{
+    background-color: rgb(245, 190, 1);;
+}
+
+.rgb101-78-163{
+    background-color: rgb(101, 78, 163);
+}
+
+.rgb210-0-40{
+    background-color: rgb(210, 0, 40);
+}
+
+.rgb255-255-255{
+    color: rgb(255, 255, 255);
+}
+
+.rgb254-249-206{
+    color: rgb(254, 249, 206);
+}
+
+.rgb146-218-236{
+    color: rgb(146, 218, 236);
+}
+
+.bdc1c6 {
+    color:  #bdc1c6;
+}
+
+section {
+    flex: 70%;
+}
+
+section h1 {
+    width: 90%;
+    margin: 15px auto;
+}
+
+.borde-decoration-section {
+    width: 90%;
+    opacity: .5;
+    margin: 15px auto;
+}
+
+.container-text-additional {
+    width: 90%;
+    margin: auto;
+}
+
+.container-text-additional p, p span {
+    word-spacing: 4px;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-text-additional span{
+    font-weight: 600;
+}
+
+#p4 {
+    color: rgb(169, 174, 180);
+    font-weight: 600;
+}
+
+#p4, #p5, #p6 {
+    font-size: .8rem;
+}
+
+.container-img-noticias {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.container-carrusel-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0, 0.8);
+}
+
+.img-nota-prensa {
+    width: 70%;
+}
+
+#img-noticia1, #img-noticia2, #img-noticia4, #img-noticia5 {
+    display: none;
+}
+
+.moverizq, .moverder {
+    font-size: 2rem;
+    font-weight: 800;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.moverizq:hover, .moverder:hover{
+    background-color: rgb(255, 255, 255, 0.8);
+    color: #000000;
+}
+
+#title-img-noticia {
+    width: 100%;
+    margin: auto;
+    background-color:  rgb(63, 45, 114);
+    color: #ffffff;
+    padding: 5px 0px;
+}
+
+#p6 {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.container_titulos {
+    font-family: 'Tektur', cursive;
+    width: 100%;
+    max-width: 1550px;
+    margin: auto;
+}
+
+.btn_titulos_team button {
+    width: 80%;
+    padding: 20px 0;
+    margin: 0 10%;
+    font-size: 2rem;
+    background-color: rgb(195, 70, 70);
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#container_tabla {
+    width: 100%;
+    padding: 20px 0;
+    max-width: 1550px;
+    margin: auto;
+    font-family: 'Tektur', cursive;
+}
+
+.tabla_titulos {
+    border: 1px solid red;
+    margin: auto;
+    width: 80%;
+}
+
+.tabla_titulos th {
+    padding: 10px 20px;
+    text-align: center;
+    border-bottom: 1px solid red;
+    border-right: 1px solid red;
+}
+
+.container-jugadores {
+    font-family: 'Tektur', cursive;
+    width: 100%;
+    max-width: 1550px;
+    margin: auto;
+    background-color: rgb(37, 65, 80);
+    color: #ffffff;
+    border-bottom: 5px solid #ffffff;
+    padding: 20px 0px;
+}
+
+.container-jugadores h1 {
+    text-align: center;
+    background-color: rgb(62, 99, 122);
+    width: 90%;
+    padding: 0 5%;
+    border-radius: 30px;
+    padding: 8px 0px;
+    word-spacing: 8px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+.container-cambio-team {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.container-cambio-team input {
+    padding: 10px 20px;
+    font-size: 1.25rem;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+#player_Lewandowski {
+    width: 90%;
+    max-width: 1550px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.container_max_info {
+    flex: 60%;
+    display: flex;
+    width: 100%;
+}
+
+.max-gol, .info-jugador{
+    flex: 50%;
+} 
+
+.video_jugador_determinante {
+    flex: 40%;
+}
+
+.video_jugador_determinante video {
+    width: 100%;
+    box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+}
+
+.info-jugador {
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    flex-direction: column;
+    background-color: rgb(52, 88, 111);
+    box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.5);
+    padding: 0 2%;
+    margin: 0 5%;
+    text-align: justify;
+    text-transform: uppercase;
+    line-height: 12px;
+    font-size: .8rem;
+}
+
+.max-gol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.max-gol img {
+    width: 85%;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px 5px rgb(52, 88, 111);
+}
+
+.container-galeria {
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+    width: 100%;
+    max-width: 1550px;
+    background-color: rgb(16, 32, 42);
+    color: #ffffff;
+    padding: 20px 0px;
+    border-top: 10px solid rgb(37, 65, 80);
+    border-bottom: 30px solid rgb(255, 255, 255);
+}
+
+.galerias {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0 5%;
+}
+
+.galerias h3 {
+    text-align: center;
+}
+
+.galerias h3 span {
+    font-weight: 400;
+}
+
+.galerias img {
+    width: 100%;
+}
+
+.galeria2 h3, .galeria4 h3, .galeria6 h3 {
+    background-color: rgb(227, 45, 56);
+    padding: 5px 0px;
+    font-size: .8rem;
+}
+
+.galeria1 h3, .galeria3 h3, .galeria5 h3 {
+    background-color: rgb(0, 119, 200);
+    padding: 5px 0px;
+    font-size: .8rem;
+}
+
+.galeria1, .galeria2, .galeria3, .galeria4, .galeria5, .galeria6     {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0.5%;
+    background-color: rgb(11, 18, 22);
+}
+
+.galeria1 div, .galeria2 div, .galeria3 div, .galeria4 div, .galeria5 div, .galeria6 div {
+    overflow: hidden;
+    cursor: pointer;
+    width: 100%;
+}
+
+.galerias a img {
+    height: 100%;
+    opacity: .9;
+    transition: transform .3s; 
+}
+
+.galerias a img:hover {
+    object-fit: cover;
+    transform: scale(1.1); 
+    opacity: 1;
+    filter: contrast(110%);
+}
+
+.info-galerias {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-size: 1.25rem;
+}
+
+.span-responsive2 {
+    display: none;
+}
+
+.owl-dots {
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.owl-dot {
+    height: 15px;
+    width: 45px;
+    border-radius: 25px;
+    cursor: pointer;
+    outline: none;
+    margin: 0 5px;
+    border: 2px solid #ffffff!important;
+    transition: all .3s ease;
+}
+
+.owl-dot:hover, .owl-dot:active {
+    background: #ffffff!important;
+}
+
+.container-patrocinadores {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    max-width: 1550px;
+    background-color: rgb(213, 215, 215);
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.patrocinador-principal h5, .patrocinador-secundario h5 {
+    font-weight: 500;
+    padding-top: 2%;
+    margin-left: 5%;
+    opacity: .8;
+}
+
+.patrocinador-principal div {
+    display: flex;
+    justify-content: center;
+}
+
+.patrocinador-principal a img {
+    height: 40px;
+    filter: contrast(110%);
+}
+
+.patrocinador-secundario {
+    width: 100%;
+}
+
+.patrocinador-secundario div {
+    padding: 0% 2.5%;
+}
+
+.container-p-o {
+    width: 100%;
+    max-width: 1550px;
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(6, 12%);
+    margin-top: 10px;
+}
+
+.container-p-o a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0px;
+}
+
+.container-p-o a img {
+    opacity: .75;
+}
+
+.container-p-o a img:hover {
+    opacity: 1;
+}
+
+#marca-legends,
+#marca-vivo {
+    width: 50%;
+}
+
+#marca-puma, 
+#marca-burguer-king,
+#marca-gol-ball {
+width: 80%;
+}
+
+#marca-fifa23, 
+#marca-microsoft,
+#marca-mahou,
+#marca-soares,
+#marca-growingtogether,
+#marca-el-corte-ingles,
+#marca-panini,
+#marca-marques-de-atrio,
+#marca-cabreiroa {
+    width: 90%;
+}
+
+#marca-golazos,
+#marca-socios, 
+#marca-allianz,
+#marca-nissan {
+    width: 95%;
+}
+
+.pie_pagina {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(19, 21, 22);
+    max-width: 1550px;
+    margin: auto
+}
+
+.pie_pagina hr {
+    width: 90%;
+    margin: auto;
+    opacity: .5;
+}
+
+.pie_pagina1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    align-items: center;
+}
+
+.container_redesSociales {
+    display: flex;
+}
+
+#rs1, #rs2, #rs3, #rs4, #rs5, #rs6, #rs7 {
+    height: 50px;
+    width: 50px;
+    border-radius: 80px;
+    background-size: cover;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+#rs1 { 
+    background-image: url(../img/Redes_sociales/icon-facebook-fg.png);
+}
+
+#rs1:hover { 
+    background-image: url(../img/Redes_sociales/icon-facebook-fb.png);
+}
+
+#rs2 { 
+    background-image: url(../img/Redes_sociales/icon-twitter-fg.png);
+}
+
+#rs2:hover { 
+    background-image: url(../img/Redes_sociales/icon-twitter-fb.png);
+}
+
+#rs3 { 
+    background-image: url(../img/Redes_sociales/icon-instagram-fg.png);
+}
+
+#rs3:hover { 
+    background-image: url(../img/Redes_sociales/icon-instagram-fb.png);
+}
+
+#rs4 { 
+    background-image: url(../img/Redes_sociales/icon-youtube-fg.png);
+}
+
+#rs4:hover { 
+    background-image: url(../img/Redes_sociales/icon-youtube-fb.png);
+}
+
+#rs5 { 
+    background-image: url(../img/Redes_sociales/icon-vk-fg.png);
+}
+
+#rs5:hover { 
+    background-image: url(../img/Redes_sociales/icon-vk-fb.png);
+}
+
+#rs6 { 
+    background-image: url(../img/Redes_sociales/icon-in-fg.png);
+}
+
+#rs6:hover { 
+    background-image: url(../img/Redes_sociales/icon-in-fb.png);
+}
+
+#rs7 { 
+    background-image: url(../img/Redes_sociales/icon-one-football-fg.png);
+}
+
+#rs7:hover { 
+    background-image: url(../img/Redes_sociales/icon-one-football-fb.png);
+}
+
+.container_politicas {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.container_politicas span a, .container_politicas span  {
+    color: #abaeb1;
+}
